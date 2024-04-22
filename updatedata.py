@@ -4,8 +4,8 @@ import sqlite3
 db = sqlite3.connect('restaurant_items.db')
 
 with db:
-    item_name = "updatedname"
-    id = 1
+    item_name = "chicken biryani"
+    id = 2
 
     cur = db.cursor()
 
